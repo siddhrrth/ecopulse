@@ -1,6 +1,6 @@
-# EcoPulse — Environmental & Air Quality Agent
+# ecopulse — Environmental & Air Quality Agent
 
-EcoPulse is a secure, multi-agent assistant built on the Google Agent Development Kit (ADK) that analyzes regional air quality reports, logs metrics, and suggests personalized and community action items.
+ecopulse is a secure, multi-agent assistant built on the Google Agent Development Kit (ADK) that analyzes regional air quality reports, logs metrics, and suggests personalized and community action items.
 
 ---
 
