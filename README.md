@@ -4,6 +4,10 @@ EcoPulse is a secure, multi-agent assistant built on the Google Agent Developmen
 
 ---
 
+![Cover Page Banner](assets/cover_page_banner.png)
+
+
+
 ## Prerequisites
 
 - **Python 3.11** or higher
@@ -101,11 +105,6 @@ graph TD
    - *Fix:* Google AI Studio is experiencing temporary spikes. Wait 10 seconds and re-send the query.
 
 ---
-
-
-## Assets
-
-![Cover Page Banner](assets/cover_page_banner.png)
 
 ### Architecture Diagram
 ![Architecture Diagram](assets/architecture_diagram.png)
