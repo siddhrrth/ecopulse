@@ -116,7 +116,7 @@ graph TD
    git add .
    git commit -m "Initial commit: ecopulse ADK agent"
    git branch -M main
-   git remote add origin https://github.com/<your-username>/ecopulse.git
+   git remote add origin https://github.com/siddhrrth/ecopulse.git
    git push -u origin main
    ```
 
@@ -130,3 +130,14 @@ graph TD
    ```
 
 ⚠️ **NEVER push `.env` to GitHub. Your API key will be exposed publicly.**
+
+---
+
+## Assets
+
+### Cover Page Banner
+![Cover Page Banner](file:///c:/Users/Siddharth/Documents/YEAR%202/agy2-projects/Project/Capstone%20Project/adk-workspace/ecopulse/assets/cover_page_banner.png)
+
+### Architecture Diagram
+![Architecture Diagram](file:///c:/Users/Siddharth/Documents/YEAR%202/agy2-projects/Project/Capstone%20Project/adk-workspace/ecopulse/assets/architecture_diagram.png)
+
