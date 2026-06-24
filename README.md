@@ -102,40 +102,9 @@ graph TD
 
 ---
 
-## Push to GitHub
-
-1. Create a new repo at https://github.com/new
-   - Name: `ecopulse`
-   - Visibility: Public or Private
-   - Do NOT initialize with README (you already have one)
-
-2. In your terminal, navigate into your project folder:
-   ```bash
-   cd ecopulse
-   git init
-   git add .
-   git commit -m "Initial commit: ecopulse ADK agent"
-   git branch -M main
-   git remote add origin https://github.com/siddhrrth/ecopulse.git
-   git push -u origin main
-   ```
-
-3. Verify `.gitignore` includes:
-   ```
-   .env          ← your API key — must NEVER be pushed
-   .venv/
-   __pycache__/
-   *.pyc
-   .adk/
-   ```
-
-⚠️ **NEVER push `.env` to GitHub. Your API key will be exposed publicly.**
-
----
 
 ## Assets
 
-### Cover Page Banner
 ![Cover Page Banner](assets/cover_page_banner.png)
 
 ### Architecture Diagram
