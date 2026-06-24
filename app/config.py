@@ -1,9 +1,12 @@
 import os
+import sys
+from pathlib import Path
 from dataclasses import dataclass
 from dotenv import load_dotenv
 
-load_dotenv(override=True)
-os.environ.setdefault("GOOGLE_GENAI_USE_VERTEXAI", "False")  # Gemini API key only
+env_path = Path(__file__).resolve().parent.parent / '.env'
+load_dotenv(dotenv_path=env_path, override=True)
+os.environ.setdefault("GOOGLE_GENAI_USE_VERTEXAI", "False")
 
 @dataclass
 class AgentConfig:
@@ -14,4 +17,6 @@ class AgentConfig:
     pii_redaction_enabled: bool = True
     injection_detection_enabled: bool = True
 
+import sys
 config = AgentConfig()
+print(f"CONFIG LOADED: GEMINI_MODEL={config.model}", file=sys.stderr, flush=True)
