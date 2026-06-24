@@ -46,11 +46,11 @@ graph TD
 
 ## Concepts Used
 
-- **ADK Workflow**: Designed a non-linear graph structure using ADK 2.0 `Workflow` in [app/agent.py](file:///c:/Users/Siddharth/Documents/YEAR%202/agy2-projects/Project/Capstone%20Project/adk-workspace/ecopulse/app/agent.py#L136-L149) starting from `START`, routing through security, and looping between orchestration and human approval.
-- **LlmAgent**: Implemented 3 specialized agents (`orchestrator`, `air_quality_analyst`, and `eco_action_planner`) using the Pydantic `Agent` model in [app/agent.py](file:///c:/Users/Siddharth/Documents/YEAR%202/agy2-projects/Project/Capstone%20Project/adk-workspace/ecopulse/app/agent.py#L29-L67).
-- **AgentTool**: Sub-agents are wrapped using `AgentTool` and supplied as tools to the orchestrator in [app/agent.py](file:///c:/Users/Siddharth/Documents/YEAR%202/agy2-projects/Project/Capstone%20Project/adk-workspace/ecopulse/app/agent.py#L63-L66) to enforce hierarchical coordination.
-- **MCP Server**: Designed and launched a standalone MCP Server in [app/mcp_server.py](file:///c:/Users/Siddharth/Documents/YEAR%202/agy2-projects/Project/Capstone%20Project/adk-workspace/ecopulse/app/mcp_server.py) using the MCP Python SDK. Wired into agents via `MCPToolset` in `app/agent.py`.
-- **Security Checkpoint**: Implemented a standalone graph function node `security_checkpoint` in [app/agent.py](file:///c:/Users/Siddharth/Documents/YEAR%202/agy2-projects/Project/Capstone%20Project/adk-workspace/ecopulse/app/agent.py#L70-L117) that enforces input verification prior to agent dispatch.
+- **ADK Workflow**: Designed a non-linear graph structure using ADK 2.0 `Workflow` in [app/agent.py](app/agent.py#L136-L149) starting from `START`, routing through security, and looping between orchestration and human approval.
+- **LlmAgent**: Implemented 3 specialized agents (`orchestrator`, `air_quality_analyst`, and `eco_action_planner`) using the Pydantic `Agent` model in [app/agent.py](app/agent.py#L29-L67).
+- **AgentTool**: Sub-agents are wrapped using `AgentTool` and supplied as tools to the orchestrator in [app/agent.py](app/agent.py#L63-L66) to enforce hierarchical coordination.
+- **MCP Server**: Designed and launched a standalone MCP Server in [app/mcp_server.py](app/mcp_server.py) using the MCP Python SDK. Wired into agents via `MCPToolset` in `app/agent.py`.
+- **Security Checkpoint**: Implemented a standalone graph function node `security_checkpoint` in [app/agent.py](app/agent.py#L70-L117) that enforces input verification prior to agent dispatch.
 - **Agents CLI**: Scaffolded using `agents-cli scaffold create` and guided using the generated `GEMINI.md`.
 
 ---
