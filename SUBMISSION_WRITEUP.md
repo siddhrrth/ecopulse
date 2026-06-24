@@ -24,12 +24,12 @@ graph TD
     HA -->|approved| FP[Finalize Plan Node]
     HA -->|request_revision| ORCH
     
-    subgraph Sub-Agents (Tools)
+    subgraph subagents ["Sub-Agents (Tools)"]
         ORCH -.-> AQ[Air Quality Analyst]
         ORCH -.-> AP[Eco Action Planner]
     end
     
-    subgraph MCP Server
+    subgraph mcpserver ["MCP Server"]
         AQ -.-> MCP1[get_air_quality]
         AQ -.-> MCP2[get_environmental_report]
         AP -.-> MCP3[get_local_climate_policies]
