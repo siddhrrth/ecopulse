@@ -131,20 +131,4 @@ graph TD
 
 ⚠️ **NEVER push `.env` to GitHub. Your API key will be exposed publicly.**
 
----
-
-## Assets
-
-### Cover Page Banner
-![Cover Page Banner](file:///c:/Users/Siddharth/Documents/YEAR%202/agy2-projects/Project/Capstone%20Project/adk-workspace/ecopulse/assets/cover_page_banner.png)
-
-### Architecture Diagram
-![Architecture Diagram](file:///c:/Users/Siddharth/Documents/YEAR%202/agy2-projects/Project/Capstone%20Project/adk-workspace/ecopulse/assets/architecture_diagram.png)
-
----
-
-## Demo Script
-
-The spoken presentation script is available in [DEMO_SCRIPT.txt](file:///c:/Users/Siddharth/Documents/YEAR%202/agy2-projects/Project/Capstone%20Project/adk-workspace/ecopulse/DEMO_SCRIPT.txt).
-
 
