@@ -136,9 +136,9 @@ graph TD
 ## Assets
 
 ### Cover Page Banner
-![Cover Page Banner](file:///c:/Users/Siddharth/Documents/YEAR%202/agy2-projects/Project/Capstone%20Project/adk-workspace/ecopulse/assets/cover_page_banner.png)
+![Cover Page Banner](assets/cover_page_banner.png)
 
 ### Architecture Diagram
-![Architecture Diagram](file:///c:/Users/Siddharth/Documents/YEAR%202/agy2-projects/Project/Capstone%20Project/adk-workspace/ecopulse/assets/architecture_diagram.png)
+![Architecture Diagram](assets/architecture_diagram.png)
 
 
